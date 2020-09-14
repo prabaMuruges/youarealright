@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  action: one
+  percentage: 1
+  made_by: one
+
+two:
+  description: MyString
+  action: two
+  percentage: 1
+  made_by: two

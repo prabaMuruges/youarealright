@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  partner_1: one
+  partner_2: one
+  status: MyString
+
+two:
+  partner_1: two
+  partner_2: two
+  status: MyString
