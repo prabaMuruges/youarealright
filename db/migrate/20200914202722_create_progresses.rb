@@ -4,7 +4,7 @@ class CreateProgresses < ActiveRecord::Migration[6.0]
       t.string :description
       t.references :action, null: false, foreign_key: true
       t.integer :percentage
-      t.references :made_by, null: false, foreign_key: true
+      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end

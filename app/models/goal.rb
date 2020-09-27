@@ -1,4 +1,4 @@
 class Goal < ApplicationRecord
   belongs_to :relationship
-  belongs_to :creator
+  belongs_to :user
 end

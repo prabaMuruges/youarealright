@@ -5,7 +5,7 @@ class CreateActions < ActiveRecord::Migration[6.0]
       t.string :type
       t.string :description
       t.references :goal, null: false, foreign_key: true
-      t.references :creator, null: false, foreign_key: true
+      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end
