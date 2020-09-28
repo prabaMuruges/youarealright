@@ -2,4 +2,6 @@
 
 class ApplicationController < ActionController::API
   include Pundit
+
+  after_action :verify_authorized
 end
