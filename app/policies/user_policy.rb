@@ -7,7 +7,11 @@ class UserPolicy < ApplicationPolicy
     end
   end
 
+  def permitted_attributes
+    %i[first_name last_name phone country_code email password]
+  end
+
   def show?
-    user.partners.include?(record)
+    true
   end
 end
