@@ -11,12 +11,11 @@ class UsersController < ApplicationController
   def show; end
 
   def update
-
+    @user.update_attributes(permitted_attributes(@user))
+    render :show
   end
 
-  def destroy
-
-  end
+  def destroy; end
 
   private
 
